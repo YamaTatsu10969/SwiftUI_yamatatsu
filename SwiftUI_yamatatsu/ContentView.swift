@@ -10,19 +10,30 @@ import SwiftUI
 
 struct ContentView : View {
     var body: some View {
+        
         VStack {
-            Text("yamamoto!!!")
-                .font(.title)
-                .fontWeight(.bold)
-                .color(.blue)
-                HStack {
-                    Text("山本だよ！")
-                        .font(.subheadline)
+            MapView()
+                .frame(height: 300)
+            
+            CircleImage()
+                .offset(y: -130)
+                .padding(.bottom, -130)
+            
+            VStack(alignment: .leading) {
+                Text("yamamoto!!!")
+                    .font(.title)
+                    .fontWeight(.bold)
+                    HStack(alignment: .top) {
+                        Text("山本だよ！")
+                            .font(.subheadline)
+                            Spacer()
+                            Text("竜也でしょ。")
+                        }
+                    }
+                    .padding()
+            
                     Spacer()
-                    Text("竜也でしょ。")
-                }
-        }
-        .padding()
+            }
     }
 }
 
