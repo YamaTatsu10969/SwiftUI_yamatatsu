@@ -10,10 +10,19 @@ import SwiftUI
 
 struct ContentView : View {
     var body: some View {
-        Text("yamamoto!!!")
-        .font(.title)
-        .fontWeight(.bold)
-        .color(.blue)
+        VStack {
+            Text("yamamoto!!!")
+                .font(.title)
+                .fontWeight(.bold)
+                .color(.blue)
+                HStack {
+                    Text("山本だよ！")
+                        .font(.subheadline)
+                    Spacer()
+                    Text("竜也でしょ。")
+                }
+        }
+        .padding()
     }
 }
 
