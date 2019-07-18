@@ -15,6 +15,8 @@
 		67D7D68D22D356A2007B14F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67D7D68C22D356A2007B14F9 /* Assets.xcassets */; };
 		67D7D69022D356A2007B14F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67D7D68F22D356A2007B14F9 /* Preview Assets.xcassets */; };
 		67D7D69322D356A2007B14F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67D7D69122D356A2007B14F9 /* LaunchScreen.storyboard */; };
+		67E08EA822E0090F002F0B90 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E08EA722E0090F002F0B90 /* Landmark.swift */; };
+		67FF9AD122E0145900522DD8 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 67FF9AD022E0145900522DD8 /* landmarkData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		67D7D68F22D356A2007B14F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		67D7D69222D356A2007B14F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		67D7D69422D356A2007B14F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67E08EA722E0090F002F0B90 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		67FF9AD022E0145900522DD8 /* landmarkData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,11 +68,13 @@
 				67D7D68822D356A1007B14F9 /* SceneDelegate.swift */,
 				67D7D68A22D356A1007B14F9 /* ContentView.swift */,
 				67D7D68C22D356A2007B14F9 /* Assets.xcassets */,
+				67E08EA722E0090F002F0B90 /* Landmark.swift */,
 				6713B85F22DF629800BD6AD5 /* CircleImage.swift */,
 				6713B86122DF637500BD6AD5 /* MapView.swift */,
 				67D7D69122D356A2007B14F9 /* LaunchScreen.storyboard */,
 				67D7D69422D356A2007B14F9 /* Info.plist */,
 				67D7D68E22D356A2007B14F9 /* Preview Content */,
+				67FF9AD022E0145900522DD8 /* landmarkData.json */,
 			);
 			path = SwiftUI_yamatatsu;
 			sourceTree = "<group>";
@@ -107,6 +113,9 @@
 		67D7D67B22D356A1007B14F9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = "山本竜也";
@@ -140,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				67D7D69322D356A2007B14F9 /* LaunchScreen.storyboard in Resources */,
+				67FF9AD122E0145900522DD8 /* landmarkData.json in Resources */,
 				67D7D69022D356A2007B14F9 /* Preview Assets.xcassets in Resources */,
 				67D7D68D22D356A2007B14F9 /* Assets.xcassets in Resources */,
 			);
@@ -157,6 +167,7 @@
 				6713B86222DF637500BD6AD5 /* MapView.swift in Sources */,
 				67D7D68922D356A1007B14F9 /* SceneDelegate.swift in Sources */,
 				67D7D68B22D356A1007B14F9 /* ContentView.swift in Sources */,
+				67E08EA822E0090F002F0B90 /* Landmark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
